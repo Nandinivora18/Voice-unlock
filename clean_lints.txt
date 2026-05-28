@@ -1,0 +1,27 @@
+﻿Analyzing aprilcapstone...                                      
+
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\about_screen.dart:2:8 - unnecessary_import
+warning - Unused import: 'home_screen.dart' - lib\screens\about_screen.dart:8:8 - unused_import
+  error - The method 'addVaultEntry' isn't defined for the type 'ApiService' - lib\screens\add_entry_screen.dart:76:36 - undefined_method
+  error - The method 'updateVaultEntry' isn't defined for the type 'ApiService' - lib\screens\add_entry_screen.dart:79:34 - undefined_method
+  error - Classes can only mix in mixins and classes - lib\screens\home_screen.dart:22:55 - mixin_of_non_class
+warning - The value of the field '_score' isn't used - lib\screens\home_screen.dart:28:11 - unused_field
+warning - The value of the field '_threshold' isn't used - lib\screens\home_screen.dart:30:11 - unused_field
+  error - The argument type 'Animate' can't be assigned to the parameter type 'PreferredSizeWidget?'.  - lib\screens\home_screen.dart:206:15 - argument_type_not_assignable
+  error - The named parameter 'amount' isn't defined - lib\screens\home_screen.dart:347:92 - undefined_named_parameter
+  error - Invalid constant value - lib\screens\settings_screen.dart:30:32 - invalid_constant
+  error - The getter 'divider' isn't defined for the type 'AppTheme' - lib\screens\settings_screen.dart:30:41 - undefined_getter
+  error - Invalid constant value - lib\screens\settings_screen.dart:49:32 - invalid_constant
+  error - The getter 'divider' isn't defined for the type 'AppTheme' - lib\screens\settings_screen.dart:49:41 - undefined_getter
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\vault_dashboard.dart:2:8 - unnecessary_import
+  error - The method 'getVaultEntries' isn't defined for the type 'ApiService' - lib\screens\vault_dashboard.dart:33:28 - undefined_method
+  error - The method 'searchVaultEntries' isn't defined for the type 'ApiService' - lib\screens\vault_dashboard.dart:34:28 - undefined_method
+  error - The method 'deleteVaultEntry' isn't defined for the type 'ApiService' - lib\screens\vault_dashboard.dart:53:38 - undefined_method
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\theme\app_theme.dart:91:18 - argument_type_not_assignable
+warning - This default clause is covered by the previous cases - lib\widgets\recording_indicator.dart:53:7 - unreachable_switch_default
+  error - The named parameter 'amount' isn't defined - lib\widgets\recording_indicator.dart:115:43 - undefined_named_parameter
+  error - The named parameter 'amount' isn't defined - lib\widgets\recording_indicator.dart:131:26 - undefined_named_parameter
+  error - The named parameter 'amount' isn't defined - lib\widgets\recording_indicator.dart:132:38 - undefined_named_parameter
+  error - The named parameter 'amount' isn't defined - lib\widgets\recording_indicator.dart:132:86 - undefined_named_parameter
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\widgets\vault_entry_card.dart:66:40 - deprecated_member_use
+
