@@ -67,12 +67,6 @@ flutter run
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here once available to make the repo visual and engaging._
-
----
-
 ## 💡 Notes for reviewers
 
 * The UI is built with Flutter.
